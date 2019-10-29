@@ -13,3 +13,12 @@ body {font-family: Verdana, Helvetica, sans-serif;}
 h1 {font-size: 30vh; text-align: center; font-weight: normal;}
 p {font-size: 3.3vh; text-align: center;}
 footer p {font-size: 1.3vh; position: absolute; bottom: 0; right: 0; border-top: 1px solid gray; color: gray; margin: 0.25em;}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #2C2E2F;
+    }
+    footer p, p, h1 {
+        background-color: #FAFAFA;
+    }
+}
+
