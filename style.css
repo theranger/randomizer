@@ -40,7 +40,7 @@ footer p {
         background-color: #2C2E2F;
     }
     footer p, p, h1 {
-        background-color: #FAFAFA;
+		color: #FAFAFA;
     }
 }
 
